@@ -12,7 +12,7 @@ RUN mvn clean package -DskipTests
 
 # stage 2: run the build with eclipse
 
-FROM eclipse-temurin:11-eclipse/ubuntu_jre
+FROM eclipse-temurin:11-jre
 
 WORKDIR /app
 
